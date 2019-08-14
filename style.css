@@ -14,7 +14,7 @@
   background: linear-gradient(rgba(218, 165, 32, 1) 0%, rgba(142, 212, 241, 0) 100%), url(img/landing.png) center/cover no-repeat;
 }
 #top header {
-  padding: 3.5vh;
+  padding: 28px 56px 0px;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -64,9 +64,9 @@
   letter-spacing: 1px;
 }
 #top .cta h1 {
-  font-size: 63px;
+  font-size: 77px;
   font-weight: 900;
-  padding: 21px 0 42px;
+  padding: 28px 56px;
 }
 #top .cta #newHere {
   padding: 14px 21px;
@@ -76,6 +76,7 @@
   max-width: fit-content;
   text-align: center;
   font-weight: 500;
+  display: none;
 }
 #top .topFooter {
   display: flex;
@@ -373,9 +374,15 @@ padding: 3.5px 0;
   }
 }
 
-@media(max-width:852px) {
+@media(max-width:952px) {
   #top header nav {
     display: none;
+  }
+  #top header {
+    justify-content: space-evenly;
+  }
+  #top .cta #newHere {
+    display: inline-block;
   }
 }
 @media(max-width:802px) {
@@ -402,6 +409,13 @@ padding: 3.5px 0;
   }
 }
 @media(max-width:575px) {
+  #top {
+    height: 93vh;
+  }
+  #top .cta h1 {
+    padding: 14px 28px;
+    font-size: 56px;
+  }
   #mondrian .wrapper.col-12 {
     flex-direction: column;
     height: 50%;
@@ -419,5 +433,24 @@ padding: 3.5px 0;
   #mondrian .wrapper.col-12 .connectMirror {
     padding: 0;
     padding-top: 10px;
+  }
+}
+@media(max-width:535px) {
+  #top header {
+    padding: 28px 0px 0px;
+  }
+}
+@media(max-width:390px) {
+  #top .cta h1 {
+    font-size: 42px;
+  }
+  #top .cta #newHere {
+    font-size: 0.9rem;
+    padding: 10px 17px;
+  }
+}
+@media(max-width:360px) {
+  #top .topFooter p {
+    font-size: 0.9rem;
   }
 }
