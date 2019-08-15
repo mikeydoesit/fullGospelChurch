@@ -96,15 +96,15 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 40vh;
+  padding: 70px 287px;
 }
 #blurb p {
   line-height: 1.7;
-  max-width: 55%;
   font-weight: 500;
   font-size: 18px;
   color: darkgoldenrod;
   text-align: center;
+  margin: 0;
 }
 
 #mondrian {
@@ -362,6 +362,23 @@ padding: 3.5px 0;
   padding: 0 3px;
 }
 
+@media(max-width:1282px) {
+  #blurb {
+    padding: 70px 210px;  
+  }
+}
+@media(max-width:1128px) {
+  #blurb {
+    padding: 70px 175px;  
+  }
+}
+
+@media(max-width:1058px) {
+  #blurb {
+    padding: 70px 140px;  
+  }
+}
+
 @media(max-width:999px) {
   #mondrian h3 {
     font-size: 1.4rem;
@@ -398,6 +415,12 @@ padding: 3.5px 0;
   }
 }
 @media(max-width:767px) {
+  #blurb {
+    padding: 49px 56px;  
+  }
+  #blurb p {
+    font-size: 16px;  
+  }
   #events .eventCluster .event {
     margin: 14px 0;
     -webkit-box-shadow: 0px 0px 10px 0px rgba(227,220,227,1);
@@ -415,6 +438,9 @@ padding: 3.5px 0;
   #top .cta h1 {
     padding: 14px 28px;
     font-size: 56px;
+  }
+  #blurb {
+    padding: 39px 49px;
   }
   #mondrian .wrapper.col-12 {
     flex-direction: column;
@@ -442,11 +468,14 @@ padding: 3.5px 0;
 }
 @media(max-width:390px) {
   #top .cta h1 {
-    font-size: 42px;
+    font-size: 41px;
   }
   #top .cta #newHere {
     font-size: 0.9rem;
     padding: 10px 17px;
+  }
+  #blurb {
+    padding: 35px 42px;
   }
 }
 @media(max-width:360px) {
