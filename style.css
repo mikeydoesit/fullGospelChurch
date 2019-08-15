@@ -362,24 +362,24 @@ padding: 3.5px 0;
   padding: 0 3px;
 }
 
-@media screen and (max-width:1282px) {
+@media (max-width: 1282px) {
   #blurb {
     padding: 70px 210px;  
   }
 }
-@media screen and (max-width:1128px) {
+@media (max-width: 1128px) {
   #blurb {
     padding: 70px 175px;  
   }
 }
 
-@media screen and (max-width:1058px) {
+@media (max-width: 1058px) {
   #blurb {
     padding: 70px 140px;  
   }
 }
 
-@media screen and (max-width:999px) {
+@media (max-width: 999px) {
   #mondrian h3 {
     font-size: 1.4rem;
   }
@@ -391,7 +391,7 @@ padding: 3.5px 0;
   }
 }
 
-@media screen and (max-width:952px) {
+@media (max-width: 952px) {
   #top header nav {
     display: none;
   }
@@ -402,7 +402,7 @@ padding: 3.5px 0;
     display: inline-block;
   }
 }
-@media screen and (max-width:802px) {
+@media (max-width: 802px) {
   #mondrian h3 {
     font-size: 1rem;
     margin: 0;
@@ -414,7 +414,7 @@ padding: 3.5px 0;
     margin: 0;
   }
 }
-@media screen and (max-width:767px) {
+@media (max-width: 767px) {
   #blurb {
     padding: 49px 56px;  
   }
@@ -431,7 +431,7 @@ padding: 3.5px 0;
     border-radius:4px;
   }
 }
-@media screen and (max-width:575px) {
+@media (max-width: 575px) {
   #top {
     height: 93vh;
   }
@@ -461,12 +461,12 @@ padding: 3.5px 0;
     padding-top: 10px;
   }
 }
-@media screen and (max-width:535px) {
+@media (max-width: 535px) {
   #top header {
     padding: 28px 0px 0px;
   }
 }
-@media screen and (max-width:390px) {
+@media (max-width: 390px) {
   #top .cta h1 {
     font-size: 41px;
   }
@@ -478,7 +478,7 @@ padding: 3.5px 0;
     padding: 35px 42px;
   }
 }
-@media screen and (max-width:360px) {
+@media (max-width: 360px) {
   #top .topFooter p {
     font-size: 0.9rem;
   }
