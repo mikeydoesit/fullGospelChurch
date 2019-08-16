@@ -475,6 +475,12 @@ padding: 3.5px 0;
   #events .head h3{
     margin-bottom: 14px;
   }
+  #contact {
+    flex-direction: column;
+  }
+  #contact .cta {
+    padding-bottom: 21px;
+  }
 }
 @media (max-width: 390px) {
   #top .cta h1 {
