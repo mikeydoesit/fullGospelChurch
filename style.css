@@ -483,3 +483,19 @@ padding: 3.5px 0;
     font-size: 0.9rem;
   }
 }
+
+/* landscape mobile view */
+
+@media (max-width: 694px) and (orientation: landscape) {
+  #top .cta {
+    justify-content: space-evenly;
+  }
+  #top .cta #newHere {
+    display: none;
+  }
+  #top .cta h1 {
+    margin: 0;
+    padding: 7px 56px;
+    font-size: 63px;
+  }
+}
