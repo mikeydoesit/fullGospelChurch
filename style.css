@@ -486,7 +486,7 @@ padding: 3.5px 0;
 
 /* landscape mobile view */
 
-@media (max-width: 694px) and (orientation: landscape) {
+@media (max-width: 695px) and (orientation: landscape) {
   #top .cta {
     justify-content: space-evenly;
   }
