@@ -486,7 +486,7 @@ padding: 3.5px 0;
 
 /* landscape mobile view */
 
-@media (max-width: 695px) and (orientation: landscape) {
+@media (max-width: 812px) and (orientation: landscape) {
   #top .cta {
     justify-content: space-evenly;
   }
@@ -497,5 +497,14 @@ padding: 3.5px 0;
     margin: 0;
     padding: 7px 35px;
     font-size: 63px;
+  }
+  #mondrian {
+    height: 100vh;
+  }
+  #mondrian .wrapper.col-12 .connect p {
+    padding-bottom: 0;
+  }
+  #mondrian .wrapper.col-12 .connect span {
+    display: none;
   }
 }
