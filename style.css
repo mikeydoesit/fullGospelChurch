@@ -518,6 +518,9 @@ padding: 3.5px 0;
   #events .head h3{
     font-size: 1.55rem;
   }
+  #contact .cta span {
+    font-size: 0.9rem;
+  }
 }
 
 /* landscape mobile view */
