@@ -403,6 +403,23 @@ padding: 3.5px 0;
     display: inline-block;
   }
 }
+@media (max-width: 853px) {
+  #verboseMenu .verboseMenuWrapper ul {
+    display: none;
+  }
+  #verboseMenu .verboseMenuWrapper {
+    flex-direction: column;
+  }
+  #verboseMenu .verboseMenuWrapper h5 {
+    margin: 0;
+  }
+  #verboseMenu .verboseMenuWrapper .accordionLink {
+    padding: 7px 0px;
+  }
+  #verboseMenu .verboseMenuWrapper hr {
+    width: 100%;
+  }
+}
 @media (max-width: 802px) {
   #mondrian h3 {
     font-size: 1rem;
