@@ -316,6 +316,9 @@
   font-size: 7px;
   vertical-align: middle;
 }
+#contact .socMed a {
+  color: inherit;
+}
 #contact .socMed i {
   padding: 0 21px;
 }
