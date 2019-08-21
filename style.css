@@ -416,6 +416,8 @@ padding: 3.5px 0;
 @media (max-width: 853px) {
   #verboseMenu .verboseMenuWrapper ul {
     display: none;
+    margin: 0;
+    padding-top: 1rem;
   }
   #verboseMenu .verboseMenuWrapper {
     flex-direction: column;
